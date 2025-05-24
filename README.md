@@ -26,7 +26,7 @@ To run the application locally, follow these steps:
 ### Frontend
 
 ```bash
-cd todos_frontend
+cd todos-frontend
 npm install
 npm run dev
 ```
@@ -34,7 +34,7 @@ npm run dev
 ### Backend
 
 ```bash
-cd todos_backend
+cd todos-backend
 deno run dev
 ```
 
