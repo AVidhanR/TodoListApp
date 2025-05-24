@@ -1,0 +1,17 @@
+meta {
+  name: post-todos
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:9000/post-todos
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "text": "you su!"
+  }
+}

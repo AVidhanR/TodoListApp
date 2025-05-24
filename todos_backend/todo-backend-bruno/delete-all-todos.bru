@@ -1,0 +1,11 @@
+meta {
+  name: delete-all-todos
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:9000/delete-all-todos
+  body: none
+  auth: inherit
+}
